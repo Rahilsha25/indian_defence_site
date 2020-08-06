@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 1189px;
+    
+}
+.box{
+    border: 4px solid black;
+    background-color: grey;
+    margin: 26px;
+    padding: 20px;
+    display: block;
+    width: 19%;
+    box-sizing: border-box;
+    float: left;
+    display: inline-block;
+}
+    .container{
+        margin: -20px -6px;
+    width: 1165px;
+}
+.heading{
+    text-align: center;
+    background-color: palegoldenrod;
+ 
+    color: orangered;
+}
+/* FOR THE IMAGES */
+.column{
+    float: left;
+    width: 25%;
+    padding: 5px;
+    border: 2px solid black;
+}
+.row{
+    content: "";
+    display: table;
+    clear: both;
+    margin: auto 147px;
+    position: relative;
+    top: 28px;
+    
+    
+}
+.slider{
+    width: 20px;
+    height: 20px;
+    margin: 0px 0px;
+    float: left;
+
+}
+.para{
+    margin: 1px 0px;
+}
+.air{
+    margin: 28px 0px;
+}
+.ref{
+    font-size: 21px;
+    text-decoration: dotted;
+}
+/*.slider1{
+    width: 800px;
+    height: 400px;
+    background: url(army/ar1.png);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+}
+@keyframes slide{
+    12.5%{
+        background : url(army/ar2.jpg) ;
+    }
+    25%{
+        background: url(army/ar3.jpg);
+    }
+    37.5%{
+        background: url(army/ar4.jpg);
+    }
+    50%{
+        background: url(army/ar5.jpg);
+    }
+    62.5%{
+        background: url(army/ar6.jpg);
+    }
+    75%{
+        background: url(army/ar7.jpg);
+    }
+    87.5%{
+        background: url(army/ar8.jpg);
+    }
+    100%{
+        background: url(army/ar1.jpg);
+    }
+}
+ .slider2{
+    width: 800px;
+    height: 400px;
+    background: url(army/ar1.png);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+}
+@keyframes slide{
+    12.5%{
+        background : url(army/ar2.jpg) ;
+    }
+    25%{
+        background: url(army/ar3.jpg);
+    }
+    37.5%{
+        background: url(army/ar4.jpg);
+    }
+    50%{
+        background: url(army/ar5.jpg);
+    }
+    62.5%{
+        background: url(army/ar6.jpg);
+    }
+    75%{
+        background: url(army/ar7.jpg);
+    }
+    87.5%{
+        background: url(army/ar8.jpg);
+    }
+    100%{
+        background: url(army/ar1.jpg);
+    }
+}
+.slider3{
+    width: 800px;
+    height: 400px;
+    background: url(army/ar1.png);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+}
+@keyframes slide{
+    12.5%{
+        background : url(army/ar2.jpg) ;
+    }
+    25%{
+        background: url(army/ar3.jpg);
+    }
+    37.5%{
+        background: url(army/ar4.jpg);
+    }
+    50%{
+        background: url(army/ar5.jpg);
+    }
+    62.5%{
+        background: url(army/ar6.jpg);
+    }
+    75%{
+        background: url(army/ar7.jpg);
+    }
+    87.5%{
+        background: url(army/ar8.jpg);
+    }
+    100%{
+        background: url(army/ar1.jpg);
+    }
+}
+.slider4{
+    width: 800px;
+    height: 400px;
+    background: url(army/ar1.png);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+}
+@keyframes slide{
+    12.5%{
+        background : url(army/ar2.jpg) ;
+    }
+    25%{
+        background: url(army/ar3.jpg);
+    }
+    37.5%{
+        background: url(army/ar4.jpg);
+    }
+    50%{
+        background: url(army/ar5.jpg);
+    }
+    62.5%{
+        background: url(army/ar6.jpg);
+    }
+    75%{
+        background: url(army/ar7.jpg);
+    }
+    87.5%{
+        background: url(army/ar8.jpg);
+    }
+    100%{
+        background: url(army/ar1.jpg);
+    }
+} */

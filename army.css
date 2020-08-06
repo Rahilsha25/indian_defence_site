@@ -1,0 +1,96 @@
+body{
+    /* background: url(/doc/army/ar6.3jpg.jpg) no-repeat ; */
+   background:linear-gradient(135deg,  blue,cyan,skyblue , lime) no-repeat;
+   background-size: cover;
+    height: 2650px;
+    background-size: 1366px 2285px;
+}
+.logo{
+    width: 120px;
+    height: 110px;
+    margin: 30px 4px;
+}
+.logo_navy{
+    width: 130px;
+    height: 157px;
+    margin: 15px 4px;
+}
+h2{
+    border: 2px double gold;
+    background: black;
+    color: red;
+    border-width: 26px;
+    margin: -136px 190px;
+    text-align: center;
+    font-size: 45px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h4 {
+    float: right;
+    border: 2px double lime ;
+    border-radius: 20px;
+    background-color: black;
+    /* color: */
+    text-decoration: none;
+    margin: 68px 9px;
+    font-size: 21px;
+    padding: 3px 18px;
+}
+a{
+    color: red;
+}
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+p{
+    color: lime;
+    margin: 210px 0px;
+    font-size: 21px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: grey;
+    opacity: .7;
+    padding: 30px 30px;
+}
+ th,tr,td{
+    border: 1px solid black;
+    width: 12px;
+    height: 35px;
+    margin:0px 570px;
+    background-color: palegreen ;
+    color: black;
+    table-layout: 12px 21px;
+    text-align: center;
+     
+}
+ 
+.table{
+    margin: 200px 131px;
+    opacity: .8;
+    
+    font-size: 30px ;
+}
+
+caption{
+    text-decoration: underline;
+    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: yellow;
+    opacity: 1;
+    margin: 0px 0px;
+}
+
+
+}
+h3, h5{
+    text-align: center;
+    font-size: 12px;
+}
+ 

@@ -1,0 +1,423 @@
+html,body{
+	margin: 0%;
+	box-sizing: border-box;
+	overflow-x:hidden;
+	font-family: 'Abel', ;
+	font-family: 'Oxanium', ;
+	font-family: 'Trade Winds', ;
+	font-family: 'Simonetta', ;
+	font-family: 'Libre Baskerville', ; 
+}
+
+:root{
+	--text-gray: #3f4954;
+	--text-light: #686666da;
+	--bg-color:#0f0f0f;
+	--white:#ffffff;
+	--midnight:#104f55;	
+
+	/*  Gradient color  */
+	--sky:linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+
+}
+
+/* ---------Global Classes--------- */
+
+a{
+	text-decoration: none;
+	color: var(--text-gray);
+}
+
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+ul{
+		list-style-type: none;
+
+}
+
+h1{
+	font-family: 'Simonetta', serif;
+	font-size: 2.5rem;
+}
+
+h2{
+	font-family: 'Oxanium',serif;
+}
+
+h3{
+	font-family: 'Abel', serif;
+	font-size: 1.3rem;
+}
+
+
+button.btn{
+	border:none;
+	border-radius: 2rem;
+	padding: 1rem 3rem;
+	font-size: 1rem;
+	font-family: 'Simonetta';
+	cursor: pointer;
+
+}
+
+span{
+	font-family:'Oxanium',serif;
+}
+
+.container{
+	margin: 0 5vh;
+}
+
+
+/*---- x ----Global Classes---- x ----*/
+
+
+
+
+/* ------Navbar------ */
+
+.nav{
+	background:white;
+	padding:0.2rem;
+	height: 0rem;
+	min-height: 10vh;
+	overflow: hidden;
+	transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu{
+	justify-content: space-between;
+
+}
+
+.nav .toggle-collapse{
+	position: absolute;
+	top: 0%;
+	width: 90%;
+	cursor: pointer;
+	display: none;
+	
+}   
+
+.nav .toggle-collapse .toggle-icons{
+	display: flex;
+	justify-content: flex-end;
+	padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons{
+	font-size: 1.4rem;
+	color: grey;
+}
+
+.collapse{
+	height: 30rem;
+}
+
+.nav .nav-menu .text-gray{
+	font-family: 'Trade Winds', serif;
+}
+
+.nav .nav-items{
+	display: flex;
+	margin: 0;
+}
+
+.nav .nav-items .nav-link{
+	padding: 1.6rem 1rem;
+	font-size: 1.1rem;
+	position: relative;
+	font-family: 'Oxanium', serif;
+}
+
+.nav .nav-items .nav-link:hover{
+	background-color: var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a{
+	color: white;
+}
+
+.nav .nav-brand a{
+	font-size: 1.6rem;
+	padding: 1rem 0;
+	display: block;
+	font-size: 1.6rem;
+}
+
+.nav .social{
+	padding: 1.4rem 0;
+
+}
+
+.nav .social i{
+	padding: 0 0.2rem;
+}
+
+.nav .social i:hover{
+	color: #a1c4cf;
+}
+
+
+
+
+
+/* ---x---Navbar---x--- */
+
+
+/*  --------Main Content----------  */
+
+	/*  -----Site Title-----  */
+
+	main .site-title{
+		background:url('../assets/Background-image.png');
+		background-size: cover;
+		height: 110vh;
+		display: flex;
+		justify-content: center;
+	}
+
+	main .site-title .site-background{
+		padding-top: 10rem;
+		text-align: center;
+		color: white;
+	} 
+
+	main .site-title .site-background .img{
+		height: 150px;
+		width:150px;
+		border-radius: 0;
+
+	}
+	main .site-title .site-background .img:hover{
+		transform: none;
+
+	}
+
+
+	main .site-title h1,h3{
+		margin: 0.3rem;
+	}
+
+	main .site-title .btn{
+		margin: 1.8rem;
+		background: var(--sky);
+	}
+
+	main .site-title .btn:hover{
+		background:transparent;
+		border: 1px solid var(--white);
+		color:var(--white);
+	}
+
+	/*  -----Site Title-----  */	
+
+
+
+	/* -------Blog Carousel-------  */
+
+	main .blog{
+		background:url('../assets/Abract01.png');
+		background-repeat: no-repeat;
+		background-position: right;
+		height: 100vh;
+		width: 100%;
+		background-size: 65%;
+
+	}
+
+	main .blog .blog-post{
+		padding-top: 6rem;
+	}
+
+	main .blog-post .blog-content{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		width: 80%;
+		margin: 3rem 2rem;
+		box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+		transition: all 0.5s ease;
+	}
+
+	main .blog-content .blog-title{
+		padding:2rem 0rem;
+	}
+
+	main .blog-content .btn-blog{
+		padding:0.7rem 2rem;
+		background:var(--sky);
+		margin: .5rem
+	}
+
+	main .blog-content span{
+		display: block;
+	}
+
+
+	main .blog-content:hover{
+		transform: scale(1.3);
+
+	}
+
+	main .blog-content .btn-blog:hover{
+		background:var(--midnight);
+	}
+
+	
+
+
+
+
+	/* -------Blog Carousel-------  */
+
+	/* ------ABOUT------- */
+
+	main .about{
+		padding: 2rem 5rem;
+		justify-content: center;
+		font-family: 'Oxanium' ,serif;
+		display: block;
+		text-align: center;
+
+	}
+
+	main .about-img{
+		border-radius: 50%;
+		height: 200px;
+		width:200px;
+		transition: all 0.5s ease;
+		margin-left: auto;
+  		margin-right: auto;
+  		padding-bottom: 2rem;
+	}
+	main .about-img:hover{
+		-webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+	}
+
+	main .about h3{
+		font-size: 5vh;
+		font-family: 'Trade Winds',serif; 
+	}
+
+	main .about-span{
+		font-size: 4vh;
+	}
+
+
+
+	/* ------ABOUT------- */
+
+
+
+/*  --------Main Content----------  */
+
+
+
+
+
+
+/*  --------Footer----------  */
+  
+footer.footer{
+	height: 100%;
+	background:var(--bg-color);
+	position: relative;
+
+}
+
+footer.footer .container h2{
+	color:white;
+}
+
+footer.footer .container{
+	display: grid;
+	grid-template-columns:repeat(2,1fr);
+
+}
+
+footer.footer .container>div{
+	flex-grow: 1;
+	flex-basis: 0;
+	padding:3rem 0.9rem;
+}
+
+footer.footer .subscribe .form-element{
+	background: black;
+	display: inline-block;
+	padding: 0.5rem 0.7rem;
+}
+
+footer.footer .subscribe .form-element input{
+	padding:0.5rem 0.7rem;
+	border:none;
+	background: transparent;
+	color: white;
+	font-family: 'Oxanium',serif;
+	font-size: 1rem;
+	width:74%;
+}
+
+footer.footer .subscribe .form-element span{
+	background: var(--sky);
+	padding: 0.5rem 0.7rem;
+	cursor: pointer;
+}
+
+footer.footer .follow div i{
+	color: white;
+	padding: 0 0.4rem;
+}
+
+footer.footer .rights{
+	justify-content: center;
+	font-family: 'Oxanium' ,serif;
+}
+
+footer.footer .rights h4 a{
+	color:white;
+}
+
+footer.footer .moveup{
+	position: absolute;
+	right: 6%;
+	top: 50%;
+}
+
+footer.footer .moveup span{
+	color:var(--midnight);
+	transition: all 0.5s ease;
+}
+
+footer.footer .moveup span:hover{
+	color:white;
+	cursor: pointer;
+}
+
+/*  --------Footer----------  */
+
+
+
+
+/*   Viewport lessthen or equal to 750px   */
+
+	@media only screen and (max-width: 750px){
+		.nav .nav-menu, .nav .nav-items{
+			flex-direction: column;
+		}
+
+		.nav .toggle-collapse{
+			display: initial;
+		}
+	}
+
+
+
+/*   x    Viewport lessthen or equal to 750px    x   */
